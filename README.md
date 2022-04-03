@@ -7,14 +7,8 @@ Stress testing refers to a type of testing that is so harsh, it is expected to p
 ApacheBench is a single-threaded command line computer program used for benchmarking HTTP web servers.
 ApacheBench ( ab ) measures the performance of a web server by inundating it with HTTP requests and recording metrics for latency and success.
 
-## Test 1
+## Tests
 
-1000 requests with 100 concurrent
-
-command:
-
-```
-ab -n 1000 -c 100 https://store-it-frontend.herokuapp.com/login
-```
-
-output:
+- Tests are done at multiple concurency level and thread counts.
+- Test module can be found in `./tests.sh`
+- Test results are in respective folders
