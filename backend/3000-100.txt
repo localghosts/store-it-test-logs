@@ -1,0 +1,46 @@
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking store-it-backend.herokuapp.com (be patient).....done
+
+
+Server Software:        Cowboy
+Server Hostname:        store-it-backend.herokuapp.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        store-it-backend.herokuapp.com
+
+Document Path:          /test
+Document Length:        89 bytes
+
+Concurrency Level:      100
+Time taken for tests:   1.539 seconds
+Complete requests:      3000
+Failed requests:        2739
+   (Connect: 0, Receive: 0, Length: 2739, Exceptions: 0)
+Total transferred:      770659 bytes
+HTML transferred:       269659 bytes
+Requests per second:    1948.73 [#/sec] (mean)
+Time per request:       51.315 [ms] (mean)
+Time per request:       0.513 [ms] (mean, across all concurrent requests)
+Transfer rate:          488.87 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        2   31 149.7      7    1014
+Processing:     2   13  26.5      9     702
+Waiting:        2   12  24.4      8     702
+Total:          4   44 151.6     17    1041
+
+Percentage of the requests served within a certain time (ms)
+  50%     17
+  66%     21
+  75%     23
+  80%     25
+  90%     32
+  95%     62
+  98%   1010
+  99%   1015
+ 100%   1041 (longest request)
